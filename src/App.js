@@ -1,20 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Card from "./components/Card/Card";
 import Navbar from "./components/Navbar/Navbar";
 import AddForm from "./Input/AddForm";
 
 function App() {
-  const Dummy = [
-    {
-      auther: "",
-      title: "",
-      content: "",
-      id: "",
-    },
-  ];
   const [userData, setUserData] = useState([]);
   const [showCard, setShowCard] = useState(false);
-  const [Id, setId] = useState();
 
   const submissionHandler = (data) => {
     const newData = { ...data };
