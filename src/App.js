@@ -38,7 +38,6 @@ function App() {
         deletetionHandler={deletetionHandler}
         handleButtonClick={handleButtonClick}
       />
-      {/* <AppForm submissionHandler={submissionHandler} /> */}
     </div>
   );
 }

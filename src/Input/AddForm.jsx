@@ -22,10 +22,6 @@ const AddForm = (props) => {
     reset: resetBlogTitle,
   } = useInput(isNotEmpty);
 
-  // const isValidImageSize = (file) => {
-  //   return file.size <= 5 * 1024 * 1024;
-  // };
-
   const {
     value: photoValue,
     isValid: photoIsValid,
@@ -74,7 +70,7 @@ const AddForm = (props) => {
 
     console.log("Submitted!");
     console.log(autherNameValue, blogTitleValue, blogContentValue, photoValue);
-    //
+    
     resetAutherName();
     resetBlogTitle();
     resetBlogContent();

@@ -1,26 +1,6 @@
 import React from "react";
-// import AddForm from "../../Input/AddForm";
 
-const Card = ({ userData, deletetionHandler, updateHandler}) => {
-  // const editHandler = (event) => {
-  //   event.preventDefault();
-  //   console.log("update clicked");
-
-  //   // const deleteData = {
-  //   //   auther: userData.autherNameValue,
-  //   //   title: userData.blogTitleValue,
-  //   //   content: userData.blogContentValue,
-  //   //   image: userData.photoValue,
-  //   // };
-
-  //   props.updateHandler(/*Some data */);
-
-  //   console.log("updated!");
-  //   // console.log(autherNameValue, blogTitleValue, blogContentValue, photoValue);
-  // }
-
-  console.log(userData);
-
+const Card = ({ userData, deletetionHandler, updateHandler }) => {
   return (
     <div>
       <div className="h-screen">
